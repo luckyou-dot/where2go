@@ -1,0 +1,32 @@
+# 临时脚本与下载产物
+_tmp_*.py
+_tmp_contacts/
+_tmp_photos/
+__pycache__/
+*.pyc
+
+# 临时与内部工作目录
+.tmp/
+.arts/
+.codeartsdoer/
+
+# 本地地图密钥与隐私配置（不要提交）
+js/map-config.js
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+credentials.*
+secrets.*
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 素材临时文件
+assets/photos/_contact.jpg
+assets/photos/_test_write.txt
